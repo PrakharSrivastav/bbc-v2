@@ -32,17 +32,17 @@
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#about" class="grey-text page-items">About</a></li>
                         <li><a href="#how" class="grey-text page-items">How it works</a></li>
-                        <li><a href="" class="grey-text page-items">Login</a></li>
-                        <li><a href="" class="grey-text page-items">Register</a></li>
+                        <li><a href="{{route('login')}}" class="grey-text page-items">Login</a></li>
+                        <li><a href="{{route('register')}}" class="grey-text page-items">Register</a></li>
                         <li><a href="#contact" class="grey-text page-items">Contact</a></li>
                     </ul>
                     <!-- sidebar: start-->
                     <ul class="side-nav" id="mobile-demo">
-                        <li><a href="#about" class="blue-text page-items">About</a></li>
-                        <li><a href="#how" class="blue-text page-items">How it works</a></li>
-                        <li><a href="" class="blue-text page-items">Login</a></li>
-                        <li><a href="" class="blue-text page-items">Register</a></li>
-                        <li><a href="#contact" class="blue-text page-items">Contact</a></li>
+                        <li><a href="#about" class="grey-text page-items">About</a></li>
+                        <li><a href="#how" class="grey-text page-items">How it works</a></li>
+                        <li><a href="{{route('login')}}" class="grey-text page-items">Login</a></li>
+                        <li><a href="{{route('register')}}" class="grey-text page-items">Register</a></li>
+                        <li><a href="#contact" class="grey-text page-items">Contact</a></li>
                     </ul>
                     <!-- sidebar: end-->
                 </div>
@@ -59,7 +59,7 @@
         </div>
 
         <!--Footer : start-->
-        <footer class="blue page-footer no-margin" id="contact">
+        <footer class="blue lighten-2 page-footer no-margin" id="contact">
             <div class="container-fluid">
                 <div class="row padding-40">
                     <!--form : start-->
@@ -81,7 +81,7 @@
                                         <label for="message">Message</label>
                                     </div>
                                     <div class="input-field col s12 padding-none">
-                                        <input type="submit" class="blue btn btn-block" value="Send">
+                                        <input type="submit" class="blue lighten-2 btn btn-block" value="Send">
                                     </div>
                                 </form>
                             </div>
@@ -96,10 +96,10 @@
                             <a href="#!" class="collection-item page-items">Terms and conditions</a>
                             <a href="#about" class="collection-item page-items">About</a>
                             <a href="#how" class="collection-item page-items">How It Works</a>
-                            <a href="#!" class="collection-item page-items">Search by location</a>
-                            <a href="#!" class="collection-item page-items">Search by title</a>
-                            <a href="#!" class="collection-item page-items">Login</a>
-                            <a href="#!" class="collection-item page-items">Register</a>
+                            <a href="{{route('showSearchByLocation')}}" class="collection-item page-items">Search by location</a>
+                            <a href="{{route('showSearchByTitle')}}" class="collection-item page-items">Search by title</a>
+                            <a href="{{route('login')}}" class="collection-item page-items">Login</a>
+                            <a href="{{route('register')}}" class="collection-item page-items">Register</a>
                         </div>
                     </div>
                     <!--links : end-->

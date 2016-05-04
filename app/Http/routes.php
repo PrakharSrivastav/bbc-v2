@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'WebsiteController@index');
+Route::get('/search-title', 'WebsiteController@searchByTitle')->name('showSearchByTitle');
+Route::get('/search-nearest','WebsiteController@searchByLocation')->name('showSearchByLocation');
+Route::get('/login','WebsiteController@showLoginForm')->name('login');
+Route::get('/signup','WebsiteController@showSignupForm')->name('register');

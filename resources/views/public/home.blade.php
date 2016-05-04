@@ -6,15 +6,15 @@
 <div class="col s12 " id="top">
     <div class="margin-top-40 center-align ">
         <br /><br />
-        <h1 class="blue-text text-lighten-1 light padding-top-40">Let your books relive</h1>
+        <h1 class="white-text light padding-top-40">Let your books relive</h1>
         <br />
         <h5 class="white-text light padding-top-40"> Share a book, meet new people, share some stories</h5>
         <br /><br />
-        <a class="margin-top-40 btn-large light blue white-text page-items" href='#about'>Click To Know More</a>
+        <a class="margin-top-40 btn-large light blue lighten-2 white-text page-items" href='#about'>Click To Know More</a>
     </div>
     <div class="clearfix"></div>
 </div>
-<div class="col s12 light blue padding-top-20"  id="about">
+<div class="col s12 light blue lighten-2 padding-top-20"  id="about">
     <h2 class="center-align light white-text">About</h2>
     <div class="center-align light flow-text white-text">
         Book Barter Club is an online book club that helps you exchange, borrow and lend books with other book lover in your neighbourhood for free. It's really easy to use and you can get started in 4 easy steps.
@@ -107,10 +107,10 @@
         </h5>
         <br />
         <div class="col s12 m3 push-m2">
-            <a class="waves-effect margin-top-40 waves-light btn-large blue page-items" href='#about'>Search Books by Title</a>
+            <a class="waves-effect margin-top-40 waves-light btn-large blue lighten-2 page-items" href="{{route('showSearchByTitle')}}">Search Books by Title</a>
         </div>
         <div class="col s12 m3 push-m5">
-            <a class="waves-effect margin-top-40 waves-light btn-large blue page-items" href='#about'>Search Books near you</a>
+            <a class="waves-effect margin-top-40 waves-light btn-large blue lighten-2 page-items" href="{{route('showSearchByLocation')}}">Search Books near you</a>
         </div>
         <br /><br />
     </div>
